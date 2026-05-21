@@ -8,9 +8,9 @@
 |---|---|--------------|
 | Гипервизор | VMware Fusion Pro | Готово       |
 | SIEM | Wazuh 4.14.5 | Готово       |
-| IDS | Suricata | В процессе   |
+| IDS | Suricata | Готово   |
 | Атакующая машина | Kali Linux ARM64 | В процессе   |
-| Жертва (Linux) | Ubuntu 26.04 + DVWA | В процессе   |
+| Жертва (Linux) | Ubuntu 26.04 + DVWA | Готово   |
 | Жертва (Windows) | Windows 11 ARM | В процессе   |
 
 ## Сеть

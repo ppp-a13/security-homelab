@@ -21,7 +21,7 @@ Wazuh SIEM имеет NAT-адаптер для выхода в интернет
 |---|---|---|---|---|------------------------------------|
 | kali | Kali Linux ARM64 | 10.10.10.10 | 2 | 3 GB | Атакующий                          |
 | wazuh-siem | Ubuntu 26.04 ARM64 | 10.10.10.20 | 2 | 6 GB | Wazuh Manager + Indexer + Dashboard |
-| dvwa-victim | Ubuntu 26.04 ARM64 | 10.10.10.30 | 2 | 3 GB | Пока не установил                  |
+| dvwa-victim | Ubuntu 26.04 ARM64 | 10.10.10.30 | 2 | 3 GB | Wazuh Agent, Suricata, DVWA |
 | windows-victim | Windows 11 ARM | 10.10.10.40 | 2 | 4 GB | Пока не установил                          |
 
 ## RAM
