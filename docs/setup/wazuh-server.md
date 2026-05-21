@@ -12,12 +12,15 @@ Manager + Indexer + Dashboard на одной машине.
 ```bash
 ssh umws@10.10.10.20
 ```
+<img width="551" height="83" alt="SSH connection" src="https://github.com/user-attachments/assets/76f647b9-9187-454c-8178-1c619915f0a8" />
 
 Проверяю интернет:
 
 ```bash
 ping -c 3 google.com
 ```
+
+<img width="535" height="167" alt="Check SSH connection" src="https://github.com/user-attachments/assets/81608cbe-870a-4958-a059-58d89536a892" />
 
 ## Установка
 
@@ -64,7 +67,13 @@ sudo bash wazuh-install.sh -a
 sudo systemctl status wazuh-manager wazuh-indexer wazuh-dashboard --no-pager
 ```
 
-Все три сервиса должны быть в статусе: `active (running)`.
+Все три сервиса должны быть в статусе: `active (running)`:
+
+<img width="911" height="610" alt="Active status (1)" src="https://github.com/user-attachments/assets/ef8991f7-0d10-4ef6-a5d9-6397b2132d3f" />
+
+<img width="914" height="420" alt="Active status (2)" src="https://github.com/user-attachments/assets/7182a4ec-f941-4142-b05c-a1922b393130" />
+
+<img width="914" height="407" alt="Active status (3)" src="https://github.com/user-attachments/assets/116343ae-95d3-4fdb-8a5b-9e94914ab6c3" />
 
 Открываю дашборд Wazuh в браузере:
 
@@ -72,13 +81,14 @@ sudo systemctl status wazuh-manager wazuh-indexer wazuh-dashboard --no-pager
 https://10.10.10.20
 ```
 
+<img width="1912" height="1161" alt="Wazuh dashboard" src="https://github.com/user-attachments/assets/9b0f1b18-2372-47df-b727-d9a7f7e4887a" />
+
 Логин: `admin`, пароль из вывода установщика.
 
 ## Снапшот
 
-После успешной установки делаю снапшот в VMware Fusion: `wazuh-clean`.
+После успешной установки делаю снапшот в VMware Fusion: `clean`.
 Точка отката, если что-то сломается в процессе работы.
-
 
 ## Заметки
 

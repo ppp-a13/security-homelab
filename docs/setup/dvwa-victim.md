@@ -60,8 +60,13 @@ $_DVWA[ 'db_password' ] = 'dvwa_password';
 sudo systemctl restart apache2
 ```
 
-Открываю `http://10.10.10.30/DVWA/setup.php` → **Create / Reset Database**.
-Логин: `admin` / `password`. Уровень безопасности: **Low**.
+Открываю `http://10.10.10.30/DVWA/setup.php` → **Create / Reset Database**:
+
+<img width="911" height="427" alt="DVWA setup" src="https://github.com/user-attachments/assets/eac0cef4-19b2-49a1-92d8-1c9a02caaba3" />
+
+Логин: `admin` / `password`. Уровень безопасности: **Low**:
+
+<img width="688" height="484" alt="DVWA security setup" src="https://github.com/user-attachments/assets/b9e7fa83-809d-44f0-9118-9abdcdf8c046" />
 
 ## Настройка SSH
 
